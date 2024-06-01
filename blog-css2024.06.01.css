@@ -1,0 +1,26 @@
+额外css
+
+.card-item:hover {
+    background-color: transparent !important;
+}
+#memo-list > div.d-flex.animate__animated.mb-3.animate__fadeIn > div {
+	background-color: transparent !important;
+}
+
+
+—— · —— · —— · —— · —— · ——
+自定义css
+/* 亮色模式下：主题色和hover颜色 */
+:root {
+    --farallon-main-color: #ff7c9d;
+    --farallon-hover-color: #ff7c9d;
+}
+/* 暗色模式下：主题色和hover颜色 */
+.dark {
+    --farallon-main-color: #ff7c9d;
+    --farallon-hover-color: #ff7c9d;
+}
+
+.card-item:hover {
+    background-color: transparent;
+}
